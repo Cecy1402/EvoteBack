@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from django.db.models import F
 
 from ..models import ListInfo, VoteInfo, Period, VoteStudent, Candidate
-from ..serializers import ListInfoSerializer, VoteStudentSerializer, CandidateSerializer
+from ..serializers import ListInfoSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 from django.contrib.auth import get_user_model
 from rest_framework import filters
